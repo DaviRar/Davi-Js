@@ -1,0 +1,19 @@
+body {
+    font: 13pt Arial;
+    background-color: burlywood;
+}
+header{
+    text-align: center;
+}
+main{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 5px 5px 10px black;
+}
+footer{
+    font: italic;
+    text-align: center;
+}

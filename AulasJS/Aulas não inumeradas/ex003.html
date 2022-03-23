@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitezoado1.0</title>
+    <style>
+        body{
+            background-color: brown;
+            color: burlywood;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+       var nome =  prompt (`Qual seu nome?`)
+       alert (`Olá ${nome} seja bem vindo ao meu site, aqui vou testar algumas coisas que aprendi.`)
+       alert (`Uma coisa que aprendi foi como deixar seu nome em maisculas: `+ nome.toUpperCase())
+       alert (`E também em minusculas: `+ nome.toLowerCase())
+       var n1 = Number(prompt (`Agora digite um numero`)) 
+       var n2 = Number(prompt (`Você digitou o numero ${n1} agora digite mais um numero`))
+       var s = n2 + n1
+       alert (`A soma dos numeros digitados é ${s}`)
+       var ano = Number(prompt (`Em que ano você nasceu? Vou te dizer quantos anos você tem`))
+       var idade = 2021 - ano
+       alert (`Você tem ${idade} anos`) 
+       document.write (`Olá ${nome}, Obrigado por entrar no meu site teste, em breve trarei novas versões mais atualiazadas e mais interativas, me aguarde...`) 
+    </script>
+</body>
+</html>

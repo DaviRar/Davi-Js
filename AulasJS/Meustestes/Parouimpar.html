@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParOuImpar</title>
+    <style>
+        div#val{
+            width: 100px;
+            text-align: center;
+            
+        } 
+    </style>
+</head>
+<body>
+    <h1>Digite um número</h1>
+    <p>Eu direi se ele é par ou impar</p>
+    <input type="number" name="num" id="num">
+    <input type="button" value="Verificar" onclick="Verificar()">
+    <div id="val"></div>
+    <script>
+        function Verificar(){
+            var n1 = document.querySelector('input#num')
+            var n2 = Number(n1.value)
+            var v = document.querySelector('div#val')
+            if (n2 % 2 == 1) {
+                v.innerHTML = 'Impar'
+                v.style.background = 'red'
+            } else {
+                v.innerHTML = 'Par'
+                v.style.background = 'green'
+                
+            }
+        }
+    </script>
+</body>
+</html>

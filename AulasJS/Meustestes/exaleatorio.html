@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de zoas</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            font: normal 15pt Arial;
+            color: rgba(255, 208, 0, 0.712);
+        }
+    </style>
+</head>
+<body>
+    <h1 class='opa'>Olá mundo 2.0</h1>
+    <div id='ola'>Estou testando algumas coisas aqui</div>
+    <div>Teste 1 (Verde)</div>
+    <div>Teste 2 (Vermelho)</div>
+    <div>Teste 3 (Azul)</div>
+    <script>
+        var t1 = document.querySelector('h1.opa')
+        var t2 = document.querySelector('div#ola')
+        t2.style.background = 'purple'
+        var p1 = document.getElementsByTagName('div')[1]
+        var p2 = document.getElementsByTagName('div')[2]
+        var p3 = document.getElementsByTagName('div')[3]
+        p1.style.background = 'green'
+        p2.style.background = 'red'
+        p3.style.background = 'blue'
+        var k1 = 4 
+        var k2 = 3
+        k1 === k2? document.write(`${k1} é igual a ${k2}`) : document.write(`${k1} não é igual a ${k2}`)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relogio</title>
+</head>
+<style>
+
+</style>
+<body>
+    <div id="hor"></div>
+   <script>
+       var agora = new Date()
+       var hora = agora.getHours()
+       var ola = document.querySelector("div#hor")
+       ola.innerHTML = hora
+   </script> 
+</body>
+</html>

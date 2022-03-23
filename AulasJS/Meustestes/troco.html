@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troco</title>
+    <style>
+    </style>
+<body>
+    <h1>Troco</h1>
+    Dinheiro: <input type="number" id="num1">
+    (50)<input type="number" id="n50">
+    (10)<input type="number" id="n10">
+    <input type="button" value="Verificar" onclick="Verf()">
+    <script>
+       function Verf(){
+        var A = document.querySelector('input#num1')
+        var a1 = Number(A.value)
+        var B = document.querySelector('input#n50')
+        var b2 = Number(B.value)
+        var C = document.querySelector('input#n10')
+        var c3 = Number(C.value)
+        var s = b2 * 50
+        var z = c3 * 10
+        if (s + z > a1){
+            window.alert ('As notas não condizem com o valor depositado')
+        }
+       }
+    </script>
+</body>
+</html>

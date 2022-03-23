@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição basíca</title>
+    <link rel="stylesheet" href="nutri.css">
+</head>
+<body>
+    <header>
+        <h1>Conhecimentos basícos de nutrição</h1>
+    </header>
+    <main>
+        <div><strong>1)Qual dos elementos abaixo é um Macronutriente?</strong></div>
+        <div>
+         <input type="radio" name="?p" id="errada1" checked>
+         <label for="errada1">Banana</label>
+         <input type="radio" name="?p" id="certa">
+         <label for="certa">Carboidrato</label>
+         <input type="radio" name="?p" id="errada2">
+         <label for="errada2">Miojo</label><div id="r1"></div>
+        </div>
+
+        <div><Strong>2)Qual o Macronutriente mais calorico?</Strong></div>
+        <div>
+         <input type="radio" name="?p2" id="errada1.2" checked>
+         <label for="errada1">Pepino rosa</label>
+         <input type="radio" name="?p2" id="errada2.2">
+         <label for="certa">Proteina</label>
+         <input type="radio" name="?p2" id="certa.1">
+         <label for="errada2">Lipídio</label><div id="r2"></div>
+        </div>
+
+        <div><strong>3)Quantas gramas de Proteina eu preciso para ter 400 kcal?</strong></div>
+        <div>
+         <input type="radio" name="?p3" id="errada3" checked>
+         <label for="errada1">1 tonelada</label>
+         <input type="radio" name="?p3" id="errada3.0">
+         <label for="certa">350 gramas</label>
+         <input type="radio" name="?p3" id="certa.2">
+         <label for="errada2">100 gramas</label><div id="r"></div>
+        </div>
+        
+        <input type="button" value="Verificar" onclick= "Verificar()">
+        <div id="Respostas"></div>
+        
+    </main>
+    <script src="nutri.js"></script>
+    <footer><p>DaviRamalho</p></footer>
+</body>
+</html>
